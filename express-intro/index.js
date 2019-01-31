@@ -15,7 +15,6 @@ app.set('layout extractStyles', true);
 
 app.use(express.static('public'));
 
-
 app.use((req, res, next) => {
   console.log(" I'm a middleware 🤪 🤯 ");
   next();
